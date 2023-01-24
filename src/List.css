@@ -1,0 +1,32 @@
+.headerDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+
+}
+
+.headerDiv p {
+  float: left;
+}
+
+.headerDiv h1 {
+  font-size: 3em;
+}
+
+.linkDiv {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.linkDiv a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.linkDiv a:hover {
+  border-bottom: 1px solid black;
+}

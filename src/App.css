@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App .headerDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  
+}
+
+.App .headerDiv h1 {
+  font-size: 3em;
+}
+
+.formDiv {
+  padding: 1rem 0;
+}
+
+.formDiv label {
+  font-size: 24px;
+}
+
+.formDiv input {
+  margin: 0 1rem;
+  padding: 8px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 15rem;
+  height: 1.5rem;
+}
+
+.formDiv input:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.formDiv button {
+  all: unset;
+  padding: 8px;
+  height: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.formDiv button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.resultList {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+table tr td{
+  width: 50%;
+}
+
+table td:nth-child(odd) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+table td:nth-child(even) {
+  font-size: 18px;
+
+}
+
+table tr {
+  height: 3rem;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.searchedVins {
+  margin: 1rem 0;
+}
+
+.linkDiv {
+  margin: 1rem 0;
+  
+}
+
+.linkDiv a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.linkDiv a:hover {
+  border-bottom: 1px solid black;
+}
+
+ul li {
+  list-style-type: none;
+}
